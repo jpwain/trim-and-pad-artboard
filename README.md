@@ -1,6 +1,6 @@
 ## Trim & Pad Artboard
 
-Resize [Sketch](http://bohemiancoding.com/sketch) artboards to fit content, with padding around all sides.
+Resize Sketch artboards to fit content, with padding around all sides.
 
 ### Usage
 
@@ -12,7 +12,7 @@ This command is also accessible in the Plugins menu:
 
 ### Customize padding
 
-To adjust the padding value, edit the `padding` value on the first line of the [shared.js](/trim_and_pad_artboard.sketchplugin/contents/sketch/shared.js) file.
+To adjust the padding value, edit the `padding` value on the first line of the `shared.js` file.
 
 ### Features
 
