@@ -1,0 +1,25 @@
+{
+  "name": "Trim & Pad Artboard",
+  "description": "Resizes artboards to fit content, plus padding.",
+  "author": "Joseph Wain",
+  "version": "1.0.0",
+  "identifier": "com.jpwain.sketch.trim-and-pad-artboard",
+  "updateURL": "",
+  "compatibleVersion": "3.5.2",
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Trim & Pad Artboard",
+      "identifier": "fit_selected",
+      "shortcut": "ctrl shift z",
+      "script": "resize_artboard.sketchscript",
+      "handler": "onRun"
+    }
+  ],
+  "menu": {
+    "items": [
+      "fit_selected"
+    ],
+    "isRoot": "true"
+  }
+}
